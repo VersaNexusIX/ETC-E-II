@@ -27,10 +27,6 @@ The codebase is organized into modular components for easier maintenance and int
  * main.cpp: Orchestrates file I/O, recursive directory processing, and the command loop.
  * etc_engine.hpp / .cpp: The cryptographic core containing the permutation, KDF, and sponge logic.
  * ui_helper.hpp / .cpp: Handles the visual identity, including ANSI color processing, banners, and status bars.
-❈ Compilation
-This project requires a compiler that supports the C++17 standard (such as GCC or Clang).
-g++ -std=c++17 main.cpp etc_engine.cpp ui_helper.cpp -o etc_tool
-
 
 #Install
 ```bash
