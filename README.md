@@ -31,6 +31,14 @@ The codebase is organized into modular components for easier maintenance and int
 This project requires a compiler that supports the C++17 standard (such as GCC or Clang).
 g++ -std=c++17 main.cpp etc_engine.cpp ui_helper.cpp -o etc_tool
 
+
+#Install
+```bash
+git clone https://github.com/VersaNexusIX/ETC-E-II
+cd ETC-E-II
+g++ -std=c++17 main.cpp etc_engine.cpp ui_helper.cpp -o etc_tool
+```
+
 ❈ Security Disclaimer
 > [!IMPORTANT]
 > ETC-E-II is a personal hobby project and an experimental implementation of cryptographic principles by VersaNexusIX. While it follows established sponge construction patterns, it has not undergone professional third-party auditing or rigorous cryptanalysis. It is intended for educational purposes or for securing non-critical data. Use at your own risk.
