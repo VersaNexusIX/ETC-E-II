@@ -28,7 +28,7 @@ The codebase is organized into modular components for easier maintenance and int
  * etc_engine.hpp / .cpp: The cryptographic core containing the permutation, KDF, and sponge logic.
  * ui_helper.hpp / .cpp: Handles the visual identity, including ANSI color processing, banners, and status bars.
 
-#Install
+# Install & Run
 ```bash
 git clone https://github.com/VersaNexusIX/ETC-E-II
 cd ETC-E-II
