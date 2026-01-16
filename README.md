@@ -33,6 +33,7 @@ The codebase is organized into modular components for easier maintenance and int
 git clone https://github.com/VersaNexusIX/ETC-E-II
 cd ETC-E-II
 g++ -std=c++17 main.cpp etc_engine.cpp ui_helper.cpp -o etc_tool
+./etc_tool
 ```
 
 ❈ Security Disclaimer
